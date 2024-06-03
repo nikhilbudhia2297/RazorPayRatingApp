@@ -8,7 +8,7 @@ export class Question {
     answers : QuestionOption[];
     ratingStrategy : RatingStrategy;
 
-    constructor(name : string) {
+    constructor(name : string ) {
         this.name = name;
         this.options = [];
         this.answers = [];
