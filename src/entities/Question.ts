@@ -9,7 +9,7 @@ export class Question {
     ratingStrategy : RatingStrategy;
 
     constructor(name : string ) {
-        this.name = name;
+        this.name = name
         this.options = [];
         this.answers = [];
         this.ratingStrategy = new AverageRatingStrategy();
